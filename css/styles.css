@@ -10969,4 +10969,12 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  .img-profile {
+    width: 200px;               /* ajuste à la taille souhaitée */
+    height: 200px;
+    object-fit: cover;          /* évite l'étirement */
+    object-position: 10% center;/* déplace le focus à gauche (par défaut 50%) */
+    border-radius: 50%;         /* cercle parfait */
+    transform: scale(1.1);      /* agrandit de 10% */
+}
 }
